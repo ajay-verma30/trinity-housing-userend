@@ -235,9 +235,9 @@ const Contact = () => {
                     <h5 className="fw-bold mb-3">Suburban Operations</h5>
                     
                     <div className="mb-3 border-bottom pb-3">
-                      <h6 className="fw-bold mb-1">📍 Andheri Hub</h6>
+                      <h6 className="fw-bold mb-1">📍 Borivali Hub</h6>
                       <p className="small text-muted mb-0">
-                        SV Road, Near Station, Andheri West, Mumbai – 400058
+                        Gorai Rd, Zoom Plaza Mall, Borivali West, Mumbai – 400058
                       </p>
                     </div>
                   </div>
