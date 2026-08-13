@@ -38,7 +38,7 @@ const About = () => {
           border: 1px solid #e2e8f0;
           border-radius: 16px;
           padding: 20px;
-          text-center;
+          text-align: center;
           box-shadow: 0 4px 12px rgba(15, 23, 42, 0.03);
         }
 
@@ -54,6 +54,13 @@ const About = () => {
         .feature-card:hover {
           transform: translateY(-5px);
         }
+
+        .philosophy-banner {
+          background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+          color: #ffffff;
+          border-radius: 24px;
+          padding: 40px;
+        }
       `}</style>
 
       <div className="about-root">
@@ -66,36 +73,39 @@ const About = () => {
               <div className="profile-img-frame">
                 <img
                   src="/Images/profile.jpeg"
-                  alt="Founder & CEO Professional Portrait"
+                  alt="Trinity Housing Professional Portrait"
                 />
               </div>
             </div>
 
             <div className="col-lg-7">
               <span className="badge bg-primary-subtle text-primary fw-bold rounded-pill px-3 py-2 mb-3">
-                About Our Venture
+                About Us – Trinity Housing
               </span>
               <h1 className="fw-extrabold display-5 mb-3 text-dark">
-                Helping You Find A Place You Can Truly Call Home
+                More Than Property. We Build Possibilities.
               </h1>
-              <p className="text-secondary fs-5 leading-relaxed mb-4">
-                Real estate is more than just transactions—it's about matching families, individuals, and businesses with spaces where they can grow and thrive. We bridge the gap between properties and buyers with absolute transparency.
+              <p className="text-secondary fs-5 leading-relaxed mb-4 fw-medium">
+                At Trinity Housing, we believe that real estate is not just about buying a property—it is about making the right decision for your future, lifestyle, and investment goals.
               </p>
               <p className="text-muted leading-relaxed mb-4">
-                Whether you're looking for your first residential apartment, expanding into a commercial office, or exploring long-term land investments, our team ensures a verified, smooth, and hassle-free journey from property selection to final handover.
+                With expertise built over many years in the real estate industry, Trinity Housing has developed strong market knowledge, valuable relationships, and a deep understanding of the property landscape. Over the years, we have had the opportunity to work with trusted, reputed, and well-known builders and developers, giving our clients access to quality projects and promising real estate opportunities.
+              </p>
+              <p className="text-muted leading-relaxed mb-4">
+                From premium residential homes and new projects to commercial spaces and investment opportunities, we focus on matching every client with the right property based on their requirements and budget.
               </p>
 
               {/* STATS ROW */}
               <div className="row g-3">
                 <div className="col-4">
                   <div className="stat-card">
-                    <h3 className="fw-bold text-primary mb-0">500+</h3>
+                    <h3 className="fw-bold text-primary mb-0">100+</h3>
                     <small className="text-muted fw-semibold">Units Delivered</small>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="stat-card">
-                    <h3 className="fw-bold text-success mb-0">10+</h3>
+                    <h3 className="fw-bold text-success mb-0">7+</h3>
                     <small className="text-muted fw-semibold">Years Experience</small>
                   </div>
                 </div>
@@ -109,50 +119,88 @@ const About = () => {
             </div>
           </div>
 
-          {/* OUR VALUES */}
+          {/* OUR EXPERTISE SECTION */}
           <div className="my-5 py-4">
             <div className="text-center mb-5">
-              <h2 className="fw-bold fs-2 text-dark">Why Clients Trust Us</h2>
-              <p className="text-muted">Built on clear communication, technical diligence, and verified listings.</p>
+              <h2 className="fw-bold fs-2 text-dark">Our Expertise</h2>
+              <p className="text-muted">Delivering professional guidance and genuine value across every milestone.</p>
             </div>
 
             <div className="row g-4">
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-3">
                 <div className="feature-card">
-                  <div className="fs-1 mb-3">🏢</div>
-                  <h5 className="fw-bold text-dark mb-2">Verified Inventory</h5>
+                  <div className="fs-1 mb-3">🏙️</div>
+                  <h5 className="fw-bold text-dark mb-2">Years of Real Estate Experience</h5>
                   <p className="text-muted small mb-0">
-                    Every property listing undergoes strict verification regarding RERA status, legal documentation, and developer track records.
+                    A strong understanding of market trends, locations, projects, and investment opportunities.
                   </p>
                 </div>
               </div>
 
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-3">
                 <div className="feature-card">
                   <div className="fs-1 mb-3">🤝</div>
-                  <h5 className="fw-bold text-dark mb-2">Transparent Pricing</h5>
+                  <h5 className="fw-bold text-dark mb-2">Trusted Builder Network</h5>
                   <p className="text-muted small mb-0">
-                    No hidden charges or unexpected commissions. We maintain absolute transparency in pricing, maintenance costs, and taxes.
+                    Strong professional associations and experience working with reputed and well-known builder/developer groups.
                   </p>
                 </div>
               </div>
 
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-3">
                 <div className="feature-card">
                   <div className="fs-1 mb-3">🎯</div>
+                  <h5 className="fw-bold text-dark mb-2">Personalized Property Solutions</h5>
+                  <p className="text-muted small mb-0">
+                    We understand that every client has different goals, and we provide recommendations accordingly.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-3">
+                <div className="feature-card">
+                  <div className="fs-1 mb-3">🔑</div>
                   <h5 className="fw-bold text-dark mb-2">End-to-End Assistance</h5>
                   <p className="text-muted small mb-0">
-                    From initial site visits to legal documentation and final possession keys, our advisors guide you through every milestone.
+                    From property selection and site visits to negotiations and closing, we guide our clients throughout the journey.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* CALL TO ACTION */}
+          {/* PHILOSOPHY & VISION */}
+          <div className="row g-4 my-5">
+            <div className="col-lg-6">
+              <div className="philosophy-banner h-100 d-flex flex-column justify-content-center">
+                <span className="text-primary-subtle fw-bold text-uppercase small tracking-wide mb-2">Our Philosophy</span>
+                <h3 className="fw-extrabold text-white mb-3">Trust. Experience. Transparency. Relationships.</h3>
+                <p className="text-slate-300 mb-0 leading-relaxed">
+                  These values form the foundation of Trinity Housing. Our goal is not simply to complete a transaction, but to build long-term relationships by delivering professional guidance and genuine value.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="bg-white border rounded-4 p-5 h-100 d-flex flex-column justify-content-center shadow-sm">
+                <span className="text-primary fw-bold text-uppercase small tracking-wide mb-2">Our Vision</span>
+                <h3 className="fw-bold text-dark mb-3">Building a Trusted Name in Real Estate</h3>
+                <p className="text-muted mb-0 leading-relaxed">
+                  To become a trusted and respected name in real estate, recognized for our expertise, strong builder relationships, customer-centric approach, and commitment to excellence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* OUR PROMISE / CALL TO ACTION */}
           <div className="bg-primary text-white rounded-4 p-5 text-center my-5 shadow-lg">
-            <h2 className="fw-bold mb-2">Ready to explore available properties?</h2>
-            <p className="text-white-50 mb-4">Browse through our latest active residential and commercial inventory.</p>
+            <span className="text-uppercase small fw-bold text-white-50 tracking-wider">Our Promise</span>
+            <h2 className="fw-bold my-2">Years of experience. Trusted builder relationships.</h2>
+            <p className="text-white-50 mb-4 fs-5">Personalized guidance. Smarter property decisions.</p>
+            <div className="mb-4">
+              <h5 className="fw-extrabold tracking-wide mb-0">TRINITY HOUSING</h5>
+              <small className="text-white-50 italic">Where Experience Meets Opportunity.</small>
+            </div>
             <button
               className="btn btn-light rounded-pill px-4 py-2 fw-semibold text-primary"
               onClick={() => navigate("/properties")}

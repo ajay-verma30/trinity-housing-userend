@@ -125,7 +125,6 @@ const Contact = () => {
                           type="text"
                           name="name"
                           className="form-control form-control-custom"
-                          placeholder="e.g. Rahul Sharma"
                           required
                           value={formData.name}
                           onChange={handleChange}
@@ -138,7 +137,6 @@ const Contact = () => {
                           type="tel"
                           name="phone"
                           className="form-control form-control-custom"
-                          placeholder="+91 98765 43210"
                           required
                           value={formData.phone}
                           onChange={handleChange}
@@ -151,7 +149,6 @@ const Contact = () => {
                           type="email"
                           name="email"
                           className="form-control form-control-custom"
-                          placeholder="rahul@example.com"
                           value={formData.email}
                           onChange={handleChange}
                         />
@@ -228,7 +225,7 @@ const Contact = () => {
                       <div className="p-3 bg-primary-subtle text-primary rounded-circle">📞</div>
                       <div>
                         <span className="d-block text-muted small">Call Us Directly</span>
-                        <a href="tel:+919876543210" className="fw-bold text-dark text-decoration-none">+91 99999 99999</a>
+                        <a href="tel:+919876543210" className="fw-bold text-dark text-decoration-none">+91 77150 01794</a>
                       </div>
                     </div>
                   </div>
