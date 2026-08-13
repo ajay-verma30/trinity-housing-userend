@@ -29,7 +29,7 @@ const About = () => {
         .profile-img-frame img {
           width: 100%;
           height: 480px;
-          object-fit: cover;
+          object-fit: contain;
           display: block;
         }
 
