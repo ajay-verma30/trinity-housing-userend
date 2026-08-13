@@ -65,7 +65,7 @@ const About = () => {
             <div className="col-lg-5">
               <div className="profile-img-frame">
                 <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800"
+                  src="/Images/profile.jpeg"
                   alt="Founder & CEO Professional Portrait"
                 />
               </div>
