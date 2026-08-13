@@ -1,0 +1,31 @@
+.btn-nav-secondary {
+  color: #334155;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 1px solid #cbd5e1;
+  background-color: transparent;
+  transition: all 0.25s ease;
+}
+
+.btn-nav-secondary:hover {
+  background-color: #f8fafc;
+  color: #0f172a;
+  border-color: #94a3b8;
+}
+
+.btn-nav-primary {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: none;
+  box-shadow: 0 4px 14px 0 rgba(15, 23, 42, 0.15);
+  transition: all 0.3s ease;
+}
+
+.btn-nav-primary:hover {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(15, 23, 42, 0.25);
+}
