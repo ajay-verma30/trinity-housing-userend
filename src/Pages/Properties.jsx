@@ -9,6 +9,7 @@ const Properties = () => {
 
   const [properties, setProperties] = useState([]);
   const [loading, setLoading] = useState(true);
+  
 
   // Filter States
   const [filters, setFilters] = useState({

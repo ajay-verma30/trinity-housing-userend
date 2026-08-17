@@ -6,6 +6,7 @@ import Properties from './Pages/Properties';
 import PropertyDetails from './Pages/PropertyDetails';
 import SoldProperties from './Components/SoldProperties';
 import About from './Pages/About';
+import ClientStories from './Pages/ClientStories';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/sold" element={<SoldProperties />} />
           <Route path="/properties/:id" element={<PropertyDetails />} />
           <Route path="/about" element={<About />} />
+          <Route path="/stories" element={<ClientStories />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import API from "../api/axios";
 import Navigationbar from "../Components/Navigationbar";
+import Footer from "../Components/Footer";
 
 const PropertyDetails = () => {
   const { id } = useParams();
@@ -305,6 +306,7 @@ const PropertyDetails = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

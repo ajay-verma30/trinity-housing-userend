@@ -21,7 +21,7 @@ const Navigationbar = () => {
     { name: "Featured Properties", path: "/properties" },
     { name: "Sold Properties", path: "/sold" },
     { name: "About Us", path: "/about" },
-    { name: "Client Stories", path: "/reviews" },
+    { name: "Client Stories", path: "/stories" },
   ];
 
   return (
